@@ -1,0 +1,7 @@
+x = str(input("Enter String:"))
+count = 0
+for y in x:
+    if y == 'A' or y == 'a':
+        count += 1
+
+print(count)
